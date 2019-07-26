@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/01/16/40/96/240_F_116409635_mZlNgL1cgzsvMHiuUy8ZqdFJO5zOaNFD.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(0, 162, 255);
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 20px;
+}
+
+a:hover {
+    border-style: inset;
+    border-radius: 5px;
+    border-width: 2px;
+    color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+}
+
+.nav-bar nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+}
+
+.nav-bar nav .logo {
+    justify-content: flex-start;
+    margin-right: 15%;
+}
+
+.nav-bar nav .buttons {
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.nav-bar nav .search-bar {
+    margin-top: 35px;
+    margin-right: 0;
+    border-radius: 5px;
+    padding:0px;
+    border-color: rgb(0, 162, 255);
+}
+
+.nav-bar nav .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(0, 162, 255);
+    background-color: black;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+}
+
+[type="sumbit"]{
+    margin-left:0;
+    border-color: rgb(0, 162, 255);
+    border-radius: 4px;
+    padding:5px;
+    background-color: black;
+    color: rgb(0, 162, 255);
+}
+
+.content{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+span .fas fa-dice-d20{
+    background-color: red;
+}
+
+#Game-of-the-week h1{
+    text-align: center;
+}
